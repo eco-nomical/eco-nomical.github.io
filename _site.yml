@@ -1,6 +1,7 @@
-name: "ecos-website"
+name: "Elissa M. Cohen"
+output_dir: "."
 navbar:
-  title: "Elissa M. Cohen"
+  title: ""
   left:
     - text: "Home"
       href: index.html
@@ -15,4 +16,4 @@ navbar:
 output:  
   html_document:  
     self_contained: no  
-    theme: spacelab
+    theme: cerulean
