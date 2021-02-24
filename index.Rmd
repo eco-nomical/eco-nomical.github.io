@@ -1,9 +1,0 @@
----
-title: "Welcome!"
----
-![](C:\Users\eliss\OneDrive\Personal_Website\images\20190713_133444.jpg){width=35%}
-
-
-Welcome to my personal website! I am Elissa Cohen, a PhD student in Economics at American University. My research combines decision research, labor and welfare research in public policy, and complexity economics to identify how emergent human behaviors impact macro-level policy decision making. 
-
-Catch me (if you can) on the job market in 2021-2022.
