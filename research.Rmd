@@ -1,0 +1,68 @@
+---
+title: "Research"
+---
+
+## Papers
+### Peer-Reviewed Papers
+
+* Cika, A., **Cohen, E.**, Kruszewski G., Seet, L., Steinmann, P., and Yin, W. (2020). "Resilient Life: An Exploration of Perturbed Autopoietic Patterns in Conway's Game of Life." In L. Soros, J. Bongard, and J. Lovato (Ed.), *Proceedings of the Artificial Life Conference (ALIFE 2020)* 32: 656-664. Burlington, Vermont: MIT Press.
+[Link here.](https://www.mitpressjournals.org/doi/pdf/10.1162/isal_a_00305")
+
+### Policy Papers
+
+* Eyster, L., Harford, C., Trutko, J., **Cohen, E.**, Mikelson, K.S., Durham, C., O‘Brien, C.T., Martin-Caughey, A., Briggs, A., and Nguyen, K. (2019). "The Trade Adjustment Assistance Community College and Career Training Grant Program: Implementation of the Rounds 1 and 2 Grants." Prepared for the US Department of Labor, Chief Evaluation Office. Washington, DC: Urban Institute. [Link here.](https://www.urban.org/research/publication/trade-adjustment-assistance-community-college-and-career-training-grant-program-implementation-rounds-1-and-2-grants)
+
+* Mikelson, K.S., Eyster, L., Durham, C., and **Cohen, E.** (2017). "The Trade Adjustment Assistance Community College and Career Training Grant Program: TAACCCT Goals, Design, and Evaluation." Washington, DC: The Urban Institute. [Link here.](https://www.urban.org/research/publication/taaccct-goals-design-and-evaluation)
+
+* **Cohen, E.**, Mikelson, K.S., Eyster, L., and Durham, C. (2017). "The Trade Adjustment Assistance Community College and Career Training Grant Program: Grantee Characteristics." Washington, DC: The Urban Institute. [Link here.](https://www.urban.org/research/publication/taaccct-grantee-characteristics)
+
+* Eyster, L., **Cohen, E.**, Mikelson, K.S., and Durham, C. (2017). "The Trade Adjustment Assistance Community College and Career Training Grant Program: TAACCCT Approaches, Targeted Industries, and Partnerships." Washington, DC: The Urban Institute. [Link here.](https://www.urban.org/research/publication/taaccct-approaches-targeted-industries-and-partnerships)
+
+* Durham, C., Eyster, L., Mikelson, K.S., and **Cohen, E.** (2017). "The Trade Adjustment Assistance Community College and Career Training Grant Program: Early Results of the TAACCCT Grants." Washington, DC: The Urban Institute. [Link here.](https://www.urban.org/research/publication/early-results-taaccct-grants)
+
+* **Cohen, E.**, Minton, S., Thompson, M., Crowe, E., and Giannarelli, L. (2016). "Welfare Rules Databook: State TANF Policies as of July 2015 (OPRE Report 2016-67)." Washington, DC: Office of Planning, Research and Evaluation, Administration for Children and Families, U.S. Department of Health and Human Services. [Link here.](https://www.urban.org/research/publication/welfare-rules-databook-state-tanf-policies-july-2015)
+
+* Huber, E., **Cohen, E.**, Briggs, A., and Kassabian, D. (2015). "Welfare Rules Databook: State TANF Policies as of July 2014 (OPRE Report 2015-81)." Washington, DC: Office of Planning, Research and Evaluation, Administration for Children and Families, U.S. Department of Health and Human Services. [Link here.](https://www.urban.org/research/publication/welfare-rules-databook-state-tanf-policies-july-2014)
+
+* Huber, E., Kassabian, D., and **Cohen, E.** (2014). "Welfare Rules Databook: State TANF Policies as of July 2013 (OPRE Report 2014-52)." Washington, DC: Office of Planning, Research and Evaluation, Administration for Children and Families, U.S. Department of Health and Human Services. [Link here.](https://www.urban.org/research/publication/welfare-rules-databook-state-tanf-policies-july-2013)
+
+* Kassabian, D., Huber, E., **Cohen, E.**, and Giannarelli, L. (2013). "Welfare Rules Databook: State TANF Policies as of July 2012 (OPRE Report 2013-27)." Washington, DC: Office of Planning, Research and Evaluation, Administration for Children and Families, U.S. Department of Health and Human Services. [Link here.](https://www.urban.org/research/publication/welfare-rules-databook-state-tanf-policies-july-2012)
+
+### Working Papers
+
+* Golan, A., Mumladze, T., Wilson, D., **Cohen, E.**, McGuinness, T., Mooney, W., and Moon, J. (2020). "Effect of Universal TB Vaccination and Other Policy-Relevant Factors on the Probability of Patient Death from COVID-19." HCEO Working Paper Series, Working Paper No. 2020-041: University of Chicago. [Link here.](http://humcap.uchicago.edu/RePEc/hka/wpaper/Golan-et_al_2020_COVID-19_and_Potential_Policies_Report.pdf)
+
+### Manuscripts in Prep
+
+* “An Info-Metric Approach for Conducting Meta-Analyses.”
+
+* “The Value of a Statistical Life: A Gendered Perspective.”
+
+* “Integrating Complexity Science and Community-Based Research Practices: Tensions and Solutions.” (with Jackie Brown and Travis Moore) 
+
+* “Overweighted Expectation: A Psychological Explanation for the Financial Crisis.” (with Mikaela Akrenius and Ahyan Panjwani)
+
+
+## Presentations
+
+* **Cohen, Elissa**. “The Value of Statistical Life: A Gendered Perspective.” Presented November 12, 2020. Poster presented at: 42nd Annual 2020 APPAM Fall Research Conference. Washington, DC.
+
+* Cika, A., **Cohen, E.***, Kruszewski G., Seet, L., Steinmann, P., and Yin, W. “Resilient Life: An Exploration of Perturbed Autopoietic Patterns in Conway’s Game of Life.” Presented July 13, 2020. Artificial Life Conference 2020 (ALIFE 2020). Burlington, Vermont.
+
+* **Cohen, Elissa**. “How the Minor in Inequality Studies Can Make a Major Difference." Presented November 3, 2016. Cornell University - Center for the Study of Inequality; Ithaca, NY.
+
+* **Cohen, Elissa**. “Then and Now: Cash Welfare from the AFDC Program to Today's TANF Program.”  The Urban Institute.  Presented June 1, 2016.  Research and Evaluation Conference on Self-Sufficiency; Washington, DC.
+
+* Giannarelli, L., **Cohen, E.**, Briggs, A., and Huber, E. “Transitional Cash Benefits for Families who left TANF: New data from the Welfare Rules Database.” The Urban Institute. Presented August 25, 2015. National Association for Welfare Research and Statistics Conference; Atlanta, GA.
+
+* Huber, E., Kassabian, D., **Cohen, E.**, and Giannarelli, L. “Variation in States’Child-Only and Non-Parent Caretaker TANF Rules: Evidence from the Welfare Rules Database.”  The Urban Institute.  Presented May 29, 2014.  Welfare Research and Evaluation Conference; Washington, DC.
+
+* Kassabian, D., Huber, E., **Cohen, E.**, and Giannarelli, L. “States’ Child-Only and Non-Parent Caretaker TANF Rules: Evidence from the Welfare Rules Database.” The Urban Institute. Presented August 20, 2013. National Association for Welfare Research and Statistics Conference; Chicago, IL.
+
+
+<!-- # CV -->
+<!-- ![CV](C:\Users\eliss\OneDrive\Personal_Website\images\CV_EMC.pdf){width=1000px, height=400px} -->
+
+<!-- # Resume -->
+<!-- ![Resume](C:\Users\eliss\OneDrive\Personal_Website\images\Resume_EMC.pdf){width=1000px,height=6000px} -->
+

@@ -1,0 +1,8 @@
+---
+title: "CV/Resume"
+---
+<!-- https://bootswatch.com/ simple -->
+
+#### A copy of my CV can be found [here](files/CV_EMC.pdf){target="_blank"}.
+
+#### A copy of my resume can be found [here](files/Resume_EMC.pdf){target="_blank"}.
