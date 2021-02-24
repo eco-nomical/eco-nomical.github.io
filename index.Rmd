@@ -1,5 +1,6 @@
 ---
 title: "Welcome!"
+output: html_document
 ---
 <br>
 <!-- ![](C:\Users\eliss\OneDrive\Personal_Website\images\20190713_133444.jpg){width=35%} -->

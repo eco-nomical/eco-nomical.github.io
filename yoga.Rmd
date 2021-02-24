@@ -1,5 +1,6 @@
 ---
 title: "Economic Flows"
+output: html_document
 ---
 <center>
 <img src="images/10620396_2913613086910_1829396147833623530_o_2913613086910.jpg" style="width:40%; border:4px solid; margin-right: 10px" align="c">
