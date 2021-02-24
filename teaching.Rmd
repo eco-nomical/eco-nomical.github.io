@@ -1,6 +1,5 @@
 ---
  title: "Academic Teaching"
- output: html_document
 ---
 ### American University 
 

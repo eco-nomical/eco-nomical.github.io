@@ -1,6 +1,5 @@
 ---
 title: "CV/Resume"
-output: html_document
 ---
 <!-- https://bootswatch.com/ simple -->
 
