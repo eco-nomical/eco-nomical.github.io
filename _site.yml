@@ -13,6 +13,8 @@ navbar:
       href: resume.html      
     - text: "Yoga"
       href: yoga.html
+    - text: "Contact"
+      href: contact.html      
 output:  
   html_document:  
     self_contained: no  
