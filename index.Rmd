@@ -1,13 +1,15 @@
 ---
-title: "Welcome!"
+title: "ELISSA M. COHEN"
 ---
 <br>
 <!-- ![](C:\Users\eliss\OneDrive\Personal_Website\images\20190713_133444.jpg){width=35%} -->
+
 <img src = "images/20190713_133444.jpg" style = "width:40%; margin-right: 20px; border-radius:50%" align = "left">
 
 
-#### Welcome to my personal website! I am Elissa Cohen, currently a PhD student in Economics at [American University](https://www.american.edu/cas/economics/). My research combines decision research, labor and welfare research in public policy, and complexity economics to identify how emergent human behaviors impact macro-level policy decision making. 
+#### I am an Economics Ph.D. Candidate at [American University](https://www.american.edu/cas/economics/). 
 
-#### 
+#### My research combines decision research, labor and welfare research in public policy, and complexity economics to identify how emergent human behaviors impact macro-level policy decision making. Currently, I am focused on how individual-level heterogeneity in risk preferences across different choice contexts influences the direction of federal safety regulations.
+
 
 #### Catch me on the job market in 2021-2022.
