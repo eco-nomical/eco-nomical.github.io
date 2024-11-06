@@ -10,6 +10,8 @@ title: "Publications and Presentations"
 
 ### Policy Papers
 
+* Federal Deposit Insurance Corporation. (2024). "FDIC Survey of VITA Providers." Washington, DC. [Link here.](https://www.fdic.gov/consumer-research/fdic-survey-vita-providers)
+
 * Eyster, L., Harford, C., Trutko, J., **Cohen, E.**, Mikelson, K.S., Durham, C., O‘Brien, C.T., Martin-Caughey, A., Briggs, A., and Nguyen, K. (2019). "The Trade Adjustment Assistance Community College and Career Training Grant Program: Implementation of the Rounds 1 and 2 Grants." Prepared for the US Department of Labor, Chief Evaluation Office. Washington, DC: Urban Institute. [Link here.](https://www.urban.org/research/publication/trade-adjustment-assistance-community-college-and-career-training-grant-program-implementation-rounds-1-and-2-grants)
 
 * Mikelson, K.S., Eyster, L., Durham, C., and **Cohen, E.** (2017). "The Trade Adjustment Assistance Community College and Career Training Grant Program: TAACCCT Goals, Design, and Evaluation." Washington, DC: The Urban Institute. [Link here.](https://www.urban.org/research/publication/taaccct-goals-design-and-evaluation)
@@ -44,6 +46,8 @@ title: "Publications and Presentations"
 
 
 ## Presentations
+
+* **Cohen, Elissa**. “A Comparison of Value of a Statistical Life Estimates Derived from Revealed and Stated Preferences: Pilot Results” Presented February 11, 2022. Poster presented at: 2021 SJDM Fall Research Conference. Virtual.
 
 * **Cohen, Elissa**. “The Value of Statistical Life: A Gendered Perspective.” Presented November 12, 2020. Poster presented at: 42nd Annual 2020 APPAM Fall Research Conference. Washington, DC.
 

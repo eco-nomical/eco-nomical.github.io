@@ -7,11 +7,8 @@ title: "ELISSA M. COHEN"
 <img src = "images/20190713_133444.jpg" style = "width:40%; margin-right: 20px; border-radius:50%" align = "left">
 
 
-#### I am an Economics Ph.D. Candidate at [American University](https://www.american.edu/cas/economics/). 
+#### Welcome! I am a PhD Economist, currently working at the FDIC within the Consumer Research group within the Division of Depositor and Consumer Protection. I earned my Economics Ph.D. last year from [American University](https://www.american.edu/cas/economics/) in August 2023. 
 
-#### My research has two areas of focus. The first area combines decision research, labor and welfare research in public policy, and complexity economics to identify how emergent human behaviors impact macro-level policy decision making. Currently, with funding from the National Science Foundation, I am examining how individual-level heterogeneity in risk preferences across different choice contexts influences the direction of federal safety regulations.
+#### Broadly, I am interested in identifying and understanding mechanisms which improve consumer economic well-being and community development. At present, my research has two areas of focus. The first area combines decision research, labor and welfare research in public policy, and complexity economics to identify how emergent human behaviors impact macro-level policy decision making. Currently, with funding from the National Science Foundation, I am examining how individual-level heterogeneity in risk preferences across different choice contexts influences the direction of federal safety regulations.
 
-#### The second area combines network theory and community development to examine how changes to the Community Reinvestment Act impacts banking networks and local development over time.
-
-
-#### Catch me on the job market in 2022-2023.
+#### The second area combines network theory and community development to examine how changes to the Community Reinvestment Act impact banking networks and local development over time.

@@ -13,7 +13,8 @@
 
 <title>Publications and Presentations</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -79,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -136,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -169,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -178,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -231,7 +233,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -280,49 +282,150 @@ $(document).ready(function () {
 <div id="peer-reviewed-papers" class="section level3">
 <h3>Peer-Reviewed Papers</h3>
 <ul>
-<li>Cika, A., <strong>Cohen, E.</strong>, Kruszewski G., Seet, L., Steinmann, P., and Yin, W. (2020). “Resilient Life: An Exploration of Perturbed Autopoietic Patterns in Conway’s Game of Life.” In L. Soros, J. Bongard, and J. Lovato (Ed.), <em>Proceedings of the Artificial Life Conference (ALIFE 2020)</em> 32: 656-664. Burlington, Vermont: MIT Press. <a href="https://www.mitpressjournals.org/doi/pdf/10.1162/isal_a_00305%22">Link here.</a></li>
+<li>Cika, A., <strong>Cohen, E.</strong>, Kruszewski G., Seet, L.,
+Steinmann, P., and Yin, W. (2020). “Resilient Life: An Exploration of
+Perturbed Autopoietic Patterns in Conway’s Game of Life.” In L. Soros,
+J. Bongard, and J. Lovato (Ed.), <em>Proceedings of the Artificial Life
+Conference (ALIFE 2020)</em> 32: 656-664. Burlington, Vermont: MIT
+Press. <a
+href="https://www.mitpressjournals.org/doi/pdf/10.1162/isal_a_00305%22">Link
+here.</a></li>
 </ul>
 </div>
 <div id="policy-papers" class="section level3">
 <h3>Policy Papers</h3>
 <ul>
-<li><p>Eyster, L., Harford, C., Trutko, J., <strong>Cohen, E.</strong>, Mikelson, K.S., Durham, C., O‘Brien, C.T., Martin-Caughey, A., Briggs, A., and Nguyen, K. (2019). “The Trade Adjustment Assistance Community College and Career Training Grant Program: Implementation of the Rounds 1 and 2 Grants.” Prepared for the US Department of Labor, Chief Evaluation Office. Washington, DC: Urban Institute. <a href="https://www.urban.org/research/publication/trade-adjustment-assistance-community-college-and-career-training-grant-program-implementation-rounds-1-and-2-grants">Link here.</a></p></li>
-<li><p>Mikelson, K.S., Eyster, L., Durham, C., and <strong>Cohen, E.</strong> (2017). “The Trade Adjustment Assistance Community College and Career Training Grant Program: TAACCCT Goals, Design, and Evaluation.” Washington, DC: The Urban Institute. <a href="https://www.urban.org/research/publication/taaccct-goals-design-and-evaluation">Link here.</a></p></li>
-<li><p><strong>Cohen, E.</strong>, Mikelson, K.S., Eyster, L., and Durham, C. (2017). “The Trade Adjustment Assistance Community College and Career Training Grant Program: Grantee Characteristics.” Washington, DC: The Urban Institute. <a href="https://www.urban.org/research/publication/taaccct-grantee-characteristics">Link here.</a></p></li>
-<li><p>Eyster, L., <strong>Cohen, E.</strong>, Mikelson, K.S., and Durham, C. (2017). “The Trade Adjustment Assistance Community College and Career Training Grant Program: TAACCCT Approaches, Targeted Industries, and Partnerships.” Washington, DC: The Urban Institute. <a href="https://www.urban.org/research/publication/taaccct-approaches-targeted-industries-and-partnerships">Link here.</a></p></li>
-<li><p>Durham, C., Eyster, L., Mikelson, K.S., and <strong>Cohen, E.</strong> (2017). “The Trade Adjustment Assistance Community College and Career Training Grant Program: Early Results of the TAACCCT Grants.” Washington, DC: The Urban Institute. <a href="https://www.urban.org/research/publication/early-results-taaccct-grants">Link here.</a></p></li>
-<li><p><strong>Cohen, E.</strong>, Minton, S., Thompson, M., Crowe, E., and Giannarelli, L. (2016). “Welfare Rules Databook: State TANF Policies as of July 2015 (OPRE Report 2016-67).” Washington, DC: Office of Planning, Research and Evaluation, Administration for Children and Families, U.S. Department of Health and Human Services. <a href="https://www.urban.org/research/publication/welfare-rules-databook-state-tanf-policies-july-2015">Link here.</a></p></li>
-<li><p>Huber, E., <strong>Cohen, E.</strong>, Briggs, A., and Kassabian, D. (2015). “Welfare Rules Databook: State TANF Policies as of July 2014 (OPRE Report 2015-81).” Washington, DC: Office of Planning, Research and Evaluation, Administration for Children and Families, U.S. Department of Health and Human Services. <a href="https://www.urban.org/research/publication/welfare-rules-databook-state-tanf-policies-july-2014">Link here.</a></p></li>
-<li><p>Huber, E., Kassabian, D., and <strong>Cohen, E.</strong> (2014). “Welfare Rules Databook: State TANF Policies as of July 2013 (OPRE Report 2014-52).” Washington, DC: Office of Planning, Research and Evaluation, Administration for Children and Families, U.S. Department of Health and Human Services. <a href="https://www.urban.org/research/publication/welfare-rules-databook-state-tanf-policies-july-2013">Link here.</a></p></li>
-<li><p>Kassabian, D., Huber, E., <strong>Cohen, E.</strong>, and Giannarelli, L. (2013). “Welfare Rules Databook: State TANF Policies as of July 2012 (OPRE Report 2013-27).” Washington, DC: Office of Planning, Research and Evaluation, Administration for Children and Families, U.S. Department of Health and Human Services. <a href="https://www.urban.org/research/publication/welfare-rules-databook-state-tanf-policies-july-2012">Link here.</a></p></li>
+<li><p>Federal Deposit Insurance Corporation. (2024). “FDIC Survey of
+VITA Providers.” Washington, DC. <a
+href="https://www.fdic.gov/consumer-research/fdic-survey-vita-providers">Link
+here.</a></p></li>
+<li><p>Eyster, L., Harford, C., Trutko, J., <strong>Cohen, E.</strong>,
+Mikelson, K.S., Durham, C., O‘Brien, C.T., Martin-Caughey, A., Briggs,
+A., and Nguyen, K. (2019). “The Trade Adjustment Assistance Community
+College and Career Training Grant Program: Implementation of the Rounds
+1 and 2 Grants.” Prepared for the US Department of Labor, Chief
+Evaluation Office. Washington, DC: Urban Institute. <a
+href="https://www.urban.org/research/publication/trade-adjustment-assistance-community-college-and-career-training-grant-program-implementation-rounds-1-and-2-grants">Link
+here.</a></p></li>
+<li><p>Mikelson, K.S., Eyster, L., Durham, C., and <strong>Cohen,
+E.</strong> (2017). “The Trade Adjustment Assistance Community College
+and Career Training Grant Program: TAACCCT Goals, Design, and
+Evaluation.” Washington, DC: The Urban Institute. <a
+href="https://www.urban.org/research/publication/taaccct-goals-design-and-evaluation">Link
+here.</a></p></li>
+<li><p><strong>Cohen, E.</strong>, Mikelson, K.S., Eyster, L., and
+Durham, C. (2017). “The Trade Adjustment Assistance Community College
+and Career Training Grant Program: Grantee Characteristics.” Washington,
+DC: The Urban Institute. <a
+href="https://www.urban.org/research/publication/taaccct-grantee-characteristics">Link
+here.</a></p></li>
+<li><p>Eyster, L., <strong>Cohen, E.</strong>, Mikelson, K.S., and
+Durham, C. (2017). “The Trade Adjustment Assistance Community College
+and Career Training Grant Program: TAACCCT Approaches, Targeted
+Industries, and Partnerships.” Washington, DC: The Urban Institute. <a
+href="https://www.urban.org/research/publication/taaccct-approaches-targeted-industries-and-partnerships">Link
+here.</a></p></li>
+<li><p>Durham, C., Eyster, L., Mikelson, K.S., and <strong>Cohen,
+E.</strong> (2017). “The Trade Adjustment Assistance Community College
+and Career Training Grant Program: Early Results of the TAACCCT Grants.”
+Washington, DC: The Urban Institute. <a
+href="https://www.urban.org/research/publication/early-results-taaccct-grants">Link
+here.</a></p></li>
+<li><p><strong>Cohen, E.</strong>, Minton, S., Thompson, M., Crowe, E.,
+and Giannarelli, L. (2016). “Welfare Rules Databook: State TANF Policies
+as of July 2015 (OPRE Report 2016-67).” Washington, DC: Office of
+Planning, Research and Evaluation, Administration for Children and
+Families, U.S. Department of Health and Human Services. <a
+href="https://www.urban.org/research/publication/welfare-rules-databook-state-tanf-policies-july-2015">Link
+here.</a></p></li>
+<li><p>Huber, E., <strong>Cohen, E.</strong>, Briggs, A., and Kassabian,
+D. (2015). “Welfare Rules Databook: State TANF Policies as of July 2014
+(OPRE Report 2015-81).” Washington, DC: Office of Planning, Research and
+Evaluation, Administration for Children and Families, U.S. Department of
+Health and Human Services. <a
+href="https://www.urban.org/research/publication/welfare-rules-databook-state-tanf-policies-july-2014">Link
+here.</a></p></li>
+<li><p>Huber, E., Kassabian, D., and <strong>Cohen, E.</strong> (2014).
+“Welfare Rules Databook: State TANF Policies as of July 2013 (OPRE
+Report 2014-52).” Washington, DC: Office of Planning, Research and
+Evaluation, Administration for Children and Families, U.S. Department of
+Health and Human Services. <a
+href="https://www.urban.org/research/publication/welfare-rules-databook-state-tanf-policies-july-2013">Link
+here.</a></p></li>
+<li><p>Kassabian, D., Huber, E., <strong>Cohen, E.</strong>, and
+Giannarelli, L. (2013). “Welfare Rules Databook: State TANF Policies as
+of July 2012 (OPRE Report 2013-27).” Washington, DC: Office of Planning,
+Research and Evaluation, Administration for Children and Families, U.S.
+Department of Health and Human Services. <a
+href="https://www.urban.org/research/publication/welfare-rules-databook-state-tanf-policies-july-2012">Link
+here.</a></p></li>
 </ul>
 </div>
 <div id="working-papers" class="section level3">
 <h3>Working Papers</h3>
 <ul>
-<li>Golan, A., Mumladze, T., Wilson, D., <strong>Cohen, E.</strong>, McGuinness, T., Mooney, W., and Moon, J. (2020). “Effect of Universal TB Vaccination and Other Policy-Relevant Factors on the Probability of Patient Death from COVID-19.” HCEO Working Paper Series, Working Paper No. 2020-041: University of Chicago. <a href="http://humcap.uchicago.edu/RePEc/hka/wpaper/Golan-et_al_2020_COVID-19_and_Potential_Policies_Report.pdf">Link here.</a></li>
+<li>Golan, A., Mumladze, T., Wilson, D., <strong>Cohen, E.</strong>,
+McGuinness, T., Mooney, W., and Moon, J. (2020). “Effect of Universal TB
+Vaccination and Other Policy-Relevant Factors on the Probability of
+Patient Death from COVID-19.” HCEO Working Paper Series, Working Paper
+No. 2020-041: University of Chicago. <a
+href="http://humcap.uchicago.edu/RePEc/hka/wpaper/Golan-et_al_2020_COVID-19_and_Potential_Policies_Report.pdf">Link
+here.</a></li>
 </ul>
 </div>
 <div id="manuscripts-in-prep" class="section level3">
 <h3>Manuscripts in Prep</h3>
 <ul>
 <li><p>“An Info-Metric Approach for Conducting Meta-Analyses.”</p></li>
-<li><p>“The Value of a Statistical Life: A Gendered Perspective.”</p></li>
-<li><p>“Integrating Complexity Science and Community-Based Research Practices: Tensions and Solutions.” (with Jackie Brown and Travis Moore)</p></li>
-<li><p>“Overweighted Expectation: A Psychological Explanation for the Financial Crisis.” (with Mikaela Akrenius and Ahyan Panjwani)</p></li>
+<li><p>“The Value of a Statistical Life: A Gendered
+Perspective.”</p></li>
+<li><p>“Integrating Complexity Science and Community-Based Research
+Practices: Tensions and Solutions.” (with Jackie Brown and Travis
+Moore)</p></li>
+<li><p>“Overweighted Expectation: A Psychological Explanation for the
+Financial Crisis.” (with Mikaela Akrenius and Ahyan Panjwani)</p></li>
 </ul>
 </div>
 </div>
 <div id="presentations" class="section level2">
 <h2>Presentations</h2>
 <ul>
-<li><p><strong>Cohen, Elissa</strong>. “The Value of Statistical Life: A Gendered Perspective.” Presented November 12, 2020. Poster presented at: 42nd Annual 2020 APPAM Fall Research Conference. Washington, DC.</p></li>
-<li><p>Cika, A., <strong>Cohen, E.</strong>*, Kruszewski G., Seet, L., Steinmann, P., and Yin, W. “Resilient Life: An Exploration of Perturbed Autopoietic Patterns in Conway’s Game of Life.” Presented July 13, 2020. Artificial Life Conference 2020 (ALIFE 2020). Burlington, Vermont.</p></li>
-<li><p><strong>Cohen, Elissa</strong>. “How the Minor in Inequality Studies Can Make a Major Difference.” Presented November 3, 2016. Cornell University - Center for the Study of Inequality; Ithaca, NY.</p></li>
-<li><p><strong>Cohen, Elissa</strong>. “Then and Now: Cash Welfare from the AFDC Program to Today’s TANF Program.” The Urban Institute. Presented June 1, 2016. Research and Evaluation Conference on Self-Sufficiency; Washington, DC.</p></li>
-<li><p>Giannarelli, L., <strong>Cohen, E.</strong>, Briggs, A., and Huber, E. “Transitional Cash Benefits for Families who left TANF: New data from the Welfare Rules Database.” The Urban Institute. Presented August 25, 2015. National Association for Welfare Research and Statistics Conference; Atlanta, GA.</p></li>
-<li><p>Huber, E., Kassabian, D., <strong>Cohen, E.</strong>, and Giannarelli, L. “Variation in States’Child-Only and Non-Parent Caretaker TANF Rules: Evidence from the Welfare Rules Database.” The Urban Institute. Presented May 29, 2014. Welfare Research and Evaluation Conference; Washington, DC.</p></li>
-<li><p>Kassabian, D., Huber, E., <strong>Cohen, E.</strong>, and Giannarelli, L. “States’ Child-Only and Non-Parent Caretaker TANF Rules: Evidence from the Welfare Rules Database.” The Urban Institute. Presented August 20, 2013. National Association for Welfare Research and Statistics Conference; Chicago, IL.</p></li>
+<li><p><strong>Cohen, Elissa</strong>. “A Comparison of Value of a
+Statistical Life Estimates Derived from Revealed and Stated Preferences:
+Pilot Results” Presented February 11, 2022. Poster presented at: 2021
+SJDM Fall Research Conference. Virtual.</p></li>
+<li><p><strong>Cohen, Elissa</strong>. “The Value of Statistical Life: A
+Gendered Perspective.” Presented November 12, 2020. Poster presented at:
+42nd Annual 2020 APPAM Fall Research Conference. Washington,
+DC.</p></li>
+<li><p>Cika, A., <strong>Cohen, E.</strong>*, Kruszewski G., Seet, L.,
+Steinmann, P., and Yin, W. “Resilient Life: An Exploration of Perturbed
+Autopoietic Patterns in Conway’s Game of Life.” Presented July 13, 2020.
+Artificial Life Conference 2020 (ALIFE 2020). Burlington,
+Vermont.</p></li>
+<li><p><strong>Cohen, Elissa</strong>. “How the Minor in Inequality
+Studies Can Make a Major Difference.” Presented November 3, 2016.
+Cornell University - Center for the Study of Inequality; Ithaca,
+NY.</p></li>
+<li><p><strong>Cohen, Elissa</strong>. “Then and Now: Cash Welfare from
+the AFDC Program to Today’s TANF Program.” The Urban Institute.
+Presented June 1, 2016. Research and Evaluation Conference on
+Self-Sufficiency; Washington, DC.</p></li>
+<li><p>Giannarelli, L., <strong>Cohen, E.</strong>, Briggs, A., and
+Huber, E. “Transitional Cash Benefits for Families who left TANF: New
+data from the Welfare Rules Database.” The Urban Institute. Presented
+August 25, 2015. National Association for Welfare Research and
+Statistics Conference; Atlanta, GA.</p></li>
+<li><p>Huber, E., Kassabian, D., <strong>Cohen, E.</strong>, and
+Giannarelli, L. “Variation in States’Child-Only and Non-Parent Caretaker
+TANF Rules: Evidence from the Welfare Rules Database.” The Urban
+Institute. Presented May 29, 2014. Welfare Research and Evaluation
+Conference; Washington, DC.</p></li>
+<li><p>Kassabian, D., Huber, E., <strong>Cohen, E.</strong>, and
+Giannarelli, L. “States’ Child-Only and Non-Parent Caretaker TANF Rules:
+Evidence from the Welfare Rules Database.” The Urban Institute.
+Presented August 20, 2013. National Association for Welfare Research and
+Statistics Conference; Chicago, IL.</p></li>
 </ul>
 <!-- # CV -->
 <!-- ![CV](C:\Users\eliss\OneDrive\Personal_Website\images\CV_EMC.pdf){width=1000px, height=400px} -->
